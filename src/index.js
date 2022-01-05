@@ -7,12 +7,10 @@ import GlobalCSS from './global.css';
 import Theme from './theme';
 
 ReactDOM.render(
-    <React.StrictMode>
-        <Theme>
-            <GlobalCSS />
-            <App />
-        </Theme>
-    </React.StrictMode>,
+    <Theme>
+        <GlobalCSS />
+        <App />
+    </Theme>,
     document.getElementById('root')
 );
 
