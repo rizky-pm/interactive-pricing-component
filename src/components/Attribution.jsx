@@ -2,13 +2,18 @@ import React from 'react';
 import styled from 'styled-components/macro';
 
 const Container = styled.div`
+    padding: 5px 0;
     position: absolute;
-    bottom: 2.5%;
+    bottom: -5%;
     left: 50%;
     transform: translateX(-50%);
     width: 70%;
     text-align: center;
     color: ${(props) => props.theme.colors.darkDesaturatedBlue};
+
+    @media only screen and (${(props) => props.theme.breakpoints.lDevices}) {
+        bottom: 2.5%;
+    }
 `;
 
 const Link = styled.a`

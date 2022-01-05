@@ -11,10 +11,10 @@ const Container = styled.div`
     background: url(${backgroundImage}),
         ${(props) => props.theme.colors.lightGrayishBlue};
     background-repeat: no-repeat;
-    background-position: 50% 25%;
-    background-size: 42.5%;
+    background-position: 50% 15%;
+    background-size: 40%;
     height: 25rem;
-    padding: 5.9375rem 1.25rem 0 1.25rem;
+    padding: 5rem 1.25rem 0 1.25rem;
     border-bottom-left-radius: 12.5rem;
     text-align: center;
 
